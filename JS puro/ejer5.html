@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="./styles.css">
+	<title>Ejercicios 2</title>
+</head>
+<body>
+	<h1>Repaso de JS basico y puro</h1>
+	<h2>url de ejercicios: <a href="https://tutobasico.com/basicos-javascript" target="_blank">Ejercicios</a></h2>
+	<h2>Modificar el DOM lo mas posible</h2>
+	<ol>
+		<li><a href="./index.html">Primer pagina de ejercicios</a></li>
+		<li><a href="./ejer2.html">Segunda pagina de ejercicios</a></li>
+		<li><a href="./ejer3.html">Tercer pagina de ejercicios</a></li>
+		<li><a href="./ejer4.html">Cuarta pagina de ejercicios</a></li>
+		<li><a href="./ejer6.html">Sexta pagina de ejercicios</a></li>
+		<li><a href="./ejer7.html">Septima pagina de ejercicios</a></li>
+		<li><a href="./fetch-api.html">Pagina de fetch-api </a></li>
+	</ol>
+			<h4>Primer ejercicio, pedir un texto y mostrar la posición de la primera vocal </h4>
+			<div id="content1"></div>
+			<button onclick="vocalp()">Posición de la vocal</button><hr>
+
+			<h4>Segundo ejercicio, el mismo que el primero pero utilizando el metodo .includes() </h4>
+			<div id="content2"></div>
+			<button onclick="vocalip()">Posición de la vocal</button><hr>
+
+			<h4>Tercer ejercicio, sucesión de fibonacci hasta un numero entre 1 y 100 </h4>
+			<div id="content3"></div>
+			<button onclick="fibonacci()">Sucesion de fibonacci</button><hr>
+
+			<h4>Cuarto ejercicio, un juego de piedra, papel o tijera contra la maquina </h4>
+			<form action="#" method="post" id="formulario" onsubmit=" return false">
+				<label for="selection">Escoge una opción: </label>
+				<select name="options" id="opciones" >
+					<option value="piedra">Piedra</option>
+					<option value="papel">Papel</option>
+					<option value="tijera">Tijera</option>
+				</select><br><br>
+				<button onclick="piedra()">Piedra, papel o tijera!!</button><hr>
+			</form>
+			<div id="content4"></div>
+			
+
+<button onclick="clean()">Limpieza</button>
+<script type="text/javascript" src="./scripts-ejercicios5.js"></script>
+</body>
+
+</html>

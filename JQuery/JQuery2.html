@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Repaso de JS</title>
+    <!--JQuery-->
+    <script type="text/javascript" src="./JQuery core/JQueryCore.js"></script>
+    <!--Tabla de CSS compartida por toda la carpeta-->
+	<link rel="stylesheet" type="text/css" href="./stylesJQuery.css">
+	<!--Botones/iconos para botones y demas-->
+	<link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<h1>Repaso de JQuery</h1>
+
+	<h2>Modificar el DOM lo mas posible</h2>
+	<h3><a href="https://www.w3resource.com/jquery-exercises/part1/index.php" target="_blank">Pagina de ejercicios</a></h3>
+	<ol>
+		<li><a href="../JS puro/index.html">Pagina de ejercicios con JS puro pagina de ejercicios</a></li>
+		<li><a href="./fetch-api.html">Pagina de fetch-api con JS</a></li>
+		<li><a href="./JQuery1.html">Primer pagina con JQuery</a></li>
+	</ol>
+
+    <h4>Septimo ejercicio, Hacer un cuadro y limitar los caracteres y contarlos</h4>
+    <label for="twit">Maximo 15 caracteres</label><br>
+    <textarea id="twit" cols="30" rows="3" maxlength="15"></textarea><br>
+    <span id="count">15</span> caracteres disponibles <hr>
+
+    <h4>Octavo ejercicio, escribir texto y escribir en negrita la primera palabra</h4>
+    <input type="text" id="texto" placeholder="Escribir aqui"><br>
+    <button onclick="bold()">Enviar</button><br>
+    <div id="content1"></div>
+    <button onclick="clean()">Limpieza</button><hr>
+
+    <h4>Noveno ejercicio, crear un nuevo div y que tenga atributos (id y clase)</h4>
+    <div id="content2"></div>
+    <button id="newDiv">Nueva sección </button>
+    <button onclick="clean()">Limpieza</button><hr>
+
+    <h4>Quinto ejercicio, mover un div dentro de otro div (div1 y div2 dentro div global)</h4>
+    <div id="content3"> Div Global</div>
+    <div id="out">
+        <div id="div1">Div1</div>
+        <div id="div2">Div2</div>
+    </div>
+
+
+     <button id="moving">Mover los divs</button>
+
+
+</body>
+<!-- Scripts de ejercicios-->
+	<script type="text/javascript" src="./JQuery2.js"></script>
+</html>

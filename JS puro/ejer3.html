@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="./styles.css">
+	<title>Ejercicios 2</title>
+</head>
+<body>
+	<h1>Repaso de JS basico y puro</h1>
+	<h2>url de ejercicios: <a href="https://tutobasico.com/basicos-javascript" target="_blank">Ejercicios</a></h2>
+	<h2>Modificar el DOM lo mas posible</h2>
+	<ol>
+		<li><a href="./index.html">Primer pagina de ejercicios</a></li>
+		<li><a href="./ejer2.html">Segunda pagina de ejercicios</a></li>
+		<li><a href="./ejer4.html">Cuarta pagina de ejercicios</a></li>
+		<li><a href="./ejer5.html">Quinta pagina de ejercicios</a></li>
+		<li><a href="./ejer6.html">Sexta pagina de ejercicios</a></li>
+		<li><a href="./ejer7.html">Septima pagina de ejercicios</a></li>
+		<li><a href="./fetch-api.html">Pagina de fetch-api </a></li>
+	</ol>
+			<h4>Primer ejercicio, introducir 3 nombres y edades y decir cual es el mayor</h4>
+					<form action="#" method="POST" id="formulario" >
+					<label for="name1">Primer nombre</label>
+					<input type="text" id="name1">
+					<input type="text" id="edad1" placeholder="edad"><br>
+					<label for="name2">Segundo nombre</label>
+					<input type="text" id="name2">
+					<input type="text" id="edad2" placeholder="edad"><br>
+					<label for="name3">Tercer nommbre</label>
+					<input type="text" id="name3">
+					<input type="text" id="edad3" placeholder="edad"><br>
+					<input type="submit" value="Enviar" id="submit" type="button" onclick="edad()">
+				</form>
+			<div id="content1">
+			</div><hr>
+
+			<h4>Segundo ejercicio, generar un número aleatorio entre 1 y 99</h4>
+			<button onclick="aleatorio()">Generar numero aleatorio</button>
+			<div id="content2">	</div><hr>
+
+			<h4>Tercer ejercicio, generar tres numeros aleatorio entre 1 y 99 y que no se repitan</h4>
+			<button onclick="aleatorio3()">Generar 3 numeros aleatorios</button>
+			<div id="content3">	</div><hr>
+
+
+
+<button onclick="clean()">Limpieza</button>
+<script type="text/javascript" src="./scripts-ejercicios3.js"></script>
+</body>
+
+</html>

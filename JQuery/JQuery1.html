@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Repaso de JS</title>
+    <script type="text/javascript" src="./JQuery core/JQueryCore.js"></script>
+	<link rel="stylesheet" type="text/css" href="./stylesJQuery.css">
+	<!--Botones/iconos para botones y demas-->
+	<link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<h1>Repaso de JS basico y puro</h1>
+
+	<h2>Modificar el DOM lo mas posible</h2>
+	<h3><a href="https://www.w3resource.com/jquery-exercises/part1/index.php" target="_blank">Pagina de ejercicios</a></h3>
+	<ol>
+		<li><a href="../JS puro/index.html">Pagina de ejercicios con JS puro pagina de ejercicios</a></li>
+		<li><a href="./fetch-api.html">Pagina de fetch-api con JS</a></li>
+		<li><a href="./JQuery2.html">Segunda pagina con JQuery</a></li>
+	</ol>
+	<h4>Primer ejercicio, llevarme al principio de una pagina (arriba) (se borrara el spam en 3 segundos despues de subir) </h4>
+	<button onclick="spam()">¡Click!</button>
+	
+		<div id="content1"></div>
+		<button  style="display:none" id="bhidden">Scroll arriba</button>
+		<br><hr>
+
+
+	<h4>Segundo ejercicio, bloquear clicks izquierdos </h4><hr>
+
+	<h4>Tercer ejercicio, Habilitar o desabilitar el boton de enviar si no se a marcado la casilla</h4>
+	<input type="checkbox" id="box" value="Click">I accept <br>
+	<input type="submit" id="submitb" value="Submit" disabled="disabled"><hr>
+
+	<h4>Cuarto ejercicio, hacer un texto parpadeante</h4>
+	<p>Texto <span class="blink">parpadeante </span> aqui</p>
+
+	<h4>Quinto ejercicio, hacer una tabla que haga un efecto de cebra en la tabla de abajo (uso de CSS)</h4>
+	<table id="table">
+		<tr>
+			<th>Student Name</th>
+			<th>Marks in Science</th>
+		</tr>
+		<tr>
+			<td>Janet</td>
+			<td>85.00</td>
+		</tr>
+		<tr>
+			<td>David</td>
+			<td>92.00</td>
+		</tr>
+		<tr>
+			<td>Arthur</td>
+			<td>79.00</td>
+		</tr>
+		<tr>
+			<td>Bill</td>
+			<td>82.00</td>
+		</tr>
+	</table>
+<hr>
+	<h4>Sexto ejercicio, hacer un boton para imprimir pagina</h4>
+	<button class="btn"><i class="fa fa-print" aria-hidden="true"></i></button>
+
+</body>
+<!-- Scripts de ejercicios-->
+	<script type="text/javascript" src="./JQuery1.js"></script>
+</html>
