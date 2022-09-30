@@ -50,6 +50,7 @@ $("#moving").click(function(){
         div1.appendTo("#out");
         div2.appendTo("#out");   
     }
+    //cosas extras
 });
 
 
