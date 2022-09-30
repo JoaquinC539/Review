@@ -50,7 +50,19 @@ $("#moving").click(function(){
         div1.appendTo("#out");
         div2.appendTo("#out");   
     }
-    //cosas extras
+    
+});
+
+$("#JSONb").click(function(){
+    var color=$("#color").val();
+    var size=$("#size").val();
+    var JSONnew={"color":color,"tamaño":size}
+    console.log(JSONnew);
+    $.each(JSONnew,function(key,data){
+        $("#content4").append(key,": ",data,"<br>");
+    });
+    $("#color").val("");
+    $("#size").val("");
 });
 
 
