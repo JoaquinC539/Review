@@ -27,3 +27,24 @@ table{
     width: 100px;
     height: 100px;
   }
+
+  #add{
+    display: block;
+    width: 200px;
+  }
+  ol ul{
+    text-indent: 0%;
+    margin-left: 0%;
+    padding-left: 0px;
+  }
+
+  .underlined span{
+    text-decoration: underline;
+  }
+
+  .toRemove {
+    color: blue;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+  }
