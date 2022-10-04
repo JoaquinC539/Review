@@ -5,6 +5,7 @@ function clean(){
 		exercise.remove();});}
 
 
+
    $("#addbtn").click(function(){ 
     var buy=$("#tobuy").val();
     $("#list").append("<ul>"+buy+"</ul>");
@@ -31,3 +32,4 @@ function clean(){
     $(".toRemove").removeClass();
     
    }
+
