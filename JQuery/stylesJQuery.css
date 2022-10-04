@@ -37,3 +37,14 @@ table{
     margin-left: 0%;
     padding-left: 0px;
   }
+
+  .underlined span{
+    text-decoration: underline;
+  }
+
+  .toRemove {
+    color: blue;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+  }

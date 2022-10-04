@@ -23,7 +23,7 @@
         <li><a href="./JQuery2.html">Segunda pagina con JQuery</a></li>
 	</ol>
 
-    <h3>Ejercicios 12, agregar un elemento a la lista no ordenada</h3>
+    <h3>Ejercicio 12, agregar un elemento a la lista no ordenada</h3>
     <h4>Lista de la compra</h4>
     <ol id="list">
         <ul>Pan</ul>
@@ -34,9 +34,28 @@
     
         <input type="text" id="tobuy" placeholder="Agregar algo mas a la compra"><br>
         <button id="addbtn">Agregrar</button>
-    
 
+<h3>Ejercicio 13, quitar las opciones de una selección y agregar una y seleccionarla</h3>
+<select id="selection">
+	<option value="Teuton">Teuton</option>
+	<option value="Franco">Franco</option>
+	<option value="Ingles">Ingles</option>
+</select><br>
+<input type="text" id="newciv" placeholder="Nueva civilización">
 
+<input type="button" value="Remover opciones y seleccionar una nueva" onclick="RemoveOptions()">
+
+<h3>Ejercicio 14, Subrayar todas las palabras de un texto con JQ</h3>
+<input type="text" id="toUnderline" placeholder="Texto para subrayar">
+<button onclick="underline()">Insertar texto</button>
+<div id="content1"></div>
+ 
+
+<h3>Ejercicio 15, remover todas las clase CSS con JQuery</h3>
+<div >
+	<p class="toRemove">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores rem officia sapiente, cupiditate est deserunt sequi iure molestiae corrupti dolorem eligendi reiciendis similique ex totam quidem numquam? Ullam, voluptates corporis.</p>
+</div>
+<button onclick="removeClass()">Quitar clase</button>
 
 </body>
 <!-- Scripts de ejercicios-->
