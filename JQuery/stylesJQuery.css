@@ -48,3 +48,16 @@ table{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
   }
+
+  #toRemoveCSS{
+    display: block;
+    height: 200px;
+    width: 200px;
+    border: solid greenyellow 5px;
+    background-color: aquamarine;
+  }
+
+  #toClick{
+    font: bold;
+    font-family: sans-serif;
+  }
