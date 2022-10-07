@@ -63,6 +63,7 @@ footer{
 
 footer span{
     float: right;
+    margin-right: 0%;
 }
 
 p{
@@ -73,6 +74,15 @@ p{
     width: 60%;
     text-align: left;
     
+}
+
+#btnup{
+    background-color: rgb(20, 173, 148); /* Blue background */
+    color: white; /* White text */
+    padding: 15px 15px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+
 }
 
 
