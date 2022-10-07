@@ -61,3 +61,9 @@ table{
     font: bold;
     font-family: sans-serif;
   }
+
+  #homebtn{
+    padding: 10px 15px;
+    font-size: 35px;
+    color: rgba(37, 80, 201, 0.986);
+  }
