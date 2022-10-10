@@ -67,3 +67,8 @@ table{
     font-size: 35px;
     color: rgba(37, 80, 201, 0.986);
   }
+  .text{
+    display: block;
+    border: solid 1px;
+    border-color: aquamarine;
+  }
