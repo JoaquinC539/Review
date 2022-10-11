@@ -72,3 +72,16 @@ table{
     border: solid 1px;
     border-color: aquamarine;
   }
+
+  #data{
+    border: 2px solid green;
+    width: 250px;
+    height: 250px;
+    overflow: scroll;
+  }
+
+  .getContent{
+    width: 500px;
+    height: 100px;
+    overflow: scroll;
+  }
