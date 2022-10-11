@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Repaso de JS</title>
+    <!--JQuery-->
+    <script type="text/javascript" src="./JQuery core/JQueryCore.js"></script>
+    <!--Tabla de CSS compartida por toda la carpeta-->
+	<link rel="stylesheet" type="text/css" href="./stylesJQuery.css">
+	<!--Botones/iconos para botones y demas-->
+	<link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<h1>Repaso de JQuery</h1>
+    <a href="../index.html"><i id="homebtn" class="fa fa-home" aria-hidden="false"></i></a>
+	<h2>Modificar el DOM lo mas posible</h2>
+    <h2>Peticiones AJAX con JQuery</h2>
+	<h3><a href="https://reqres.in/" target="_blank">Fake API-RES</a></h3>
+	<ol>
+
+		<li><a href="./JQuery1.html">Primer pagina con JQuery</a></li>
+        <li><a href="./JQuery2.html">Segunda pagina con JQuery</a></li>
+        <li><a href="./JQuery3.html">Tercer pagina con JQuery</a></li>
+        <li><a href="./JQuery4.html">Cuarta pagina con JQuery</a></li>
+        <li><a href="./JQuery5.html">Quinta pagina con JQuery</a></li>
+	</ol>
+    <h4>Ejercicio 24, metodo load</h4>
+    <div id="data"></div>
+    <button id="buttonload">Cargar pagina</button>
+
+    <h4>Ejercicio 25, metodo get</h4>
+    <div id="content1g" class="getContent"></div>
+    <button id="getusers">Get usuarios</button>
+    <hr>
+    
+    <h4>Ejercicio 26, realizar una petición por POST con JQuery</h4>
+    
+    <form action="https://reqres.in/api/users" method="post" id="postu">
+        Nombre: <input type="text" id="uname">
+        Edad: <input type="number" id="uage">
+        <button id="postb">Enviar</button>
+
+    </form><hr>
+
+    <h4>Ejercicio 27, realizar una peticion por GET con el metodo .ajax</h4>
+    <div id="content2g" class="getContent"></div>
+    <button id="button2ag">Hacer petición</button>
+
+    
+</body>
+<!-- Scripts de ejercicios-->
+	<script type="text/javascript" src="./AJAX-JQuery.js"></script><br>
+</html>
