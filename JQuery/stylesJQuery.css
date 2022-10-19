@@ -85,3 +85,84 @@ table{
     height: 100px;
     overflow: scroll;
   }
+
+  .container{
+    border: solid 2px;
+    border-color: #ccc;
+    width: 300px;
+    height: 300px;
+  }
+
+  .toDrag{
+    border: solid 1px;
+    width: 80px;
+    height: 80px;
+    border-color: solid black;
+  }
+
+  #toDrop{
+    display: block;
+    border: solid 1px;
+    width: 115px;
+    height: 115px;
+    border-color: solid black;
+    float:right;
+
+
+  }
+  #toDropDrag{
+    background-color: aquamarine;
+  }
+  .Dropped{
+    background-color: yellow;
+    color: black;
+  }
+
+  .ui-widget-header{
+    text-align: center;
+  }
+  #feedback { font-size: 0.5em; }
+  #selectable { list-style-type: none; margin: 0; padding: 0; width: 60%; }
+  #selectable li { margin: 3px; padding: 0.4em; font-size: 1.4em; height: 18px; }
+
+ #selectable .ui-selected {
+  background: rgb(142, 212, 10);
+ }
+ #selectable .ui-selecting{
+  background: rgb(198, 201, 19);
+ }
+ 
+.column{
+  width: 300px;
+  float: left;
+  
+}
+.portlet{
+  margin: 0.2em 0.3em;
+  padding: 0.3em;
+}
+
+.portlet-header{
+  padding: 0.2em 1em 0;
+  margin-bottom: 0.5em;
+  position: relative;
+}
+.portlet-content{
+  padding: 0.4em;
+}
+.portlet-header {
+  padding: 0.2em 0.3em;
+  margin-bottom: 0.5em;
+  position: relative;
+}
+.portlet-toggle {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-top: -8px;
+}
+.portlet-placeholder {
+  border: 1px dotted black;
+  margin: 0 1em 1em 0;
+  height: 50px;
+}

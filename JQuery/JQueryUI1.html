@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Repaso de JS</title>
+    <!--JQuery-->
+    <script type="text/javascript" src="./JQuery core/JQueryCore.js"></script>
+    <!--Tabla de CSS compartida por toda la carpeta-->
+	<link rel="stylesheet" type="text/css" href="./stylesJQuery.css">
+	<!--Botones/iconos para botones y demas-->
+	<link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--JQuery UI-->
+    <link rel="stylesheet" href="../jquery-ui-1.13.2/jquery-ui.css">
+    <script type="text/javascript"src="../jquery-ui-1.13.2/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="../jquery-ui-1.13.2/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="../jquery-ui-1.13.2/jquery-ui.theme.min.css">
+
+
+</head>
+<body>
+	<h1>Repaso de JQuery</h1>
+    <a href="../index.html"><i id="homebtn" class="fa fa-home" aria-hidden="false"></i></a>
+	<h2>Modificar el DOM lo mas posible</h2>
+    <h2>Interacciones con JQuery</h2>
+	<ol>
+
+		<li><a href="./JQuery1.html">Primer pagina con JQuery</a></li>
+        <li><a href="./JQuery2.html">Segunda pagina con JQuery</a></li>
+        <li><a href="./JQuery3.html">Tercer pagina con JQuery</a></li>
+        <li><a href="./JQuery4.html">Cuarta pagina con JQuery</a></li>
+        <li><a href="./JQuery5.html">Quinta pagina con JQuery</a></li>
+        <li><a href="./AJAX-JQuery.html">AJAX con JQuery</a></li>
+	</ol>
+
+    <h4>Primer ejercicio, hacer una caja movible en un espacio delimitado</h4>
+    <div class="container" id="container1">
+        <div class="toDrag" class="ui-widget-content"><span>Mueveme¡¡¡</span></div>
+    </div><hr>
+    <h4>Segundo ejercicio, hacer una caja movible que detecte cuando se suelta en un lugar</h4>
+    <div id="container2" class="container">
+        <div class="toDrag" class="ui-widget-content" id="toDropDrag"><span>Mueveme¡¡¡</span></div>
+        <div id="toDrop">Drop aqui</div>
+    </div><hr>
+
+    <h4>Tercer ejercicio, hacer un titutlo de forma que se pueda ajustar su tamaño con el mouse</h4>
+    <div class="container" id="container3">
+        <h5 id="resizable" class="ui-widget-header">Ajustable</h5>
+    </div>
+
+    <h4>Cuarto ejercicio, hacer una lista de cambie de clase CSS cuando sea seleccionado</h4>
+    <div id="toAppend"></div>
+    <ol id="selectable">
+        <li >Objeto 1</li>
+        <li class="ui-widget-content">Objeto 2</li>
+        <li class="ui-widget-content">Objeto 3</li>
+        <li class="ui-widget-content" >Objeto 4</li>
+        <li class="ui-widget-content" >Objeto 5</li>
+        <li class="ui-widget-content" >Objeto 6</li>
+    </ol><hr>
+
+    <h4>Quinto ejercicio, hacer unoc cuadros minimizables con el que se pueda desplegar mas texto y ademas movibles</h4>
+    <div class="container">
+        <div class="column">
+ 
+            <div class="portlet">
+              <div class="portlet-header">Diario</div>
+              <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+            </div>
+           
+            <div class="portlet">
+              <div class="portlet-header">Noticias</div>
+              <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+            </div>
+           
+          </div>
+    </div><br><hr>
+    <h4>Sexto Ejercicio, hacer una barra de autocompletado </h4>
+    <input type="text" id="tags" placeholder="Buscar lenguajes">
+    <hr>
+    <h4>Septimo ejercicio, hacer un calendario con selección de cambio de formato</h4>
+    <input type="text" id="datepicker" size="30">
+    <p>Formatos <br>
+        <select id="format">
+            <option value="mm/dd/yy">Inglesa: mm/dd/yy</option>
+            <option value="dd/yy/mm">Latina: dd/mm/yy</option>
+            <option value="DD, d MM, yy">Completa </option>
+            <!--
+          <option value="mm/dd/yy">Default - mm/dd/yy</option>
+          <option value="yy-mm-dd">ISO 8601 - yy-mm-dd</option>
+          <option value="d M, y">Short - d M, y</option>
+          <option value="d MM, y">Medium - d MM, y</option>
+          <option value="DD, d MM, yy">Full - DD, d MM, yy</option>
+            -->
+        </select>
+      </p>
+
+</body>
+<!-- Scripts de ejercicios-->
+	<script type="text/javascript" src="./JQueryUI1.js"></script><br>
+</html>
