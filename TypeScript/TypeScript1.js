@@ -46,36 +46,24 @@ var Automovil = /** @class */ (function () {
      */
     Automovil.prototype.setColor = function (color) {
         this.color = color;
-        return this.color;
     };
     /**
      * setModel
      */
     Automovil.prototype.setModel = function (year) {
         this.model = year;
-        return this.model;
     };
     /**
      * setDistance
      */
     Automovil.prototype.setDistance = function (km) {
         this.distance = km;
-        return this.distance;
     };
     /**
      * setDefects
      */
     Automovil.prototype.setDefects = function (defects) {
         this.defects = defects;
-        return this.defects;
-    };
-    Automovil.prototype.setBrand = function (brand) {
-        this.brand = brand;
-        return this.brand;
-    };
-    Automovil.prototype.setType = function (type) {
-        this.type = type;
-        return this.type;
     };
     return Automovil;
 }());
@@ -86,19 +74,9 @@ function carmodel() {
     var brand = $("#brand").val();
     var type = $("#type").val();
     var distance = Number($("#km").val());
-    var defects = $("#defects").val();
-    $("#content3").empty();
-    automovil.setColor(color);
-    automovil.setModel(model);
-    automovil.setBrand(brand);
-    automovil.setType(type);
-    automovil.setDistance(distance);
-    if (defects == "true") {
-        automovil.setDefects(Boolean(true));
-        $("#content3").append("El auto es un: ".concat(automovil.type, " ").concat(automovil.brand, "de color ").concat(automovil.color, " modelo ").concat(automovil.model, " con ").concat(automovil.distance, "km y tiene defectos"));
-    }
-    else {
-        automovil.setDefects(Boolean(false));
-        $("#content3").append("El auto es un: ".concat(automovil.type, " ").concat(automovil.brand, "de color ").concat(automovil.color, " modelo ").concat(automovil.model, " con ").concat(automovil.distance, "km y no tiene defectos"));
-    }
+    var defects =$("#defects").val();
+    if(defects=="true"){
+        defects=new Boolean(true);
+    }else{defects=new Boolean(false)}
+    
 }
