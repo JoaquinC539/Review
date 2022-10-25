@@ -55,9 +55,20 @@ interface Admin{
 }
 
 export type Person=unknown;
+//Ejercicio 4
+interface Obligatories{
+    setColor(color);
+    setModel(model);
+    setDistance(distance);
+    setBrand(brand);
+    setType(type);
+}
+
+
 
 //Ejercicio 3
-class Automovil{
+
+class Automovil implements Obligatories{
 //Object properties
     public color:string;
     public model:number;
@@ -65,6 +76,17 @@ class Automovil{
     public type:string;
     public distance:number;
     public defects:boolean;
+
+    //Constructor
+    constructor(color,model,brand,type,distance,defects){
+        this.color=color;
+        this.model=model;
+        this.brand=brand;
+        this.type=type;
+        this.distance=distance;
+        this.defects=defects;
+    }
+
     //Methods
     /**
      * set Color
@@ -105,25 +127,22 @@ class Automovil{
 
 }
 
-function carmodel(){
-    var automovil=new Automovil();
+function carmodel(){    
     var color=$("#color").val();
     var model=Number($("#model").val());
     var brand=$("#brand").val();
     var type=$("#type").val();
     var distance=Number($("#km").val());
     var defects=$("#defects").val();
-    $("#content3").empty();
-    automovil.setColor(color);
-    automovil.setModel(model);
-    automovil.setBrand(brand);
-    automovil.setType(type);
-    automovil.setDistance(distance);
+    var automovil=new Automovil(color,model,brand,type,distance,defects);
+    $("#content3").empty(); 
+
     if(defects=="true"){
         automovil.setDefects(Boolean(true))
-        $("#content3").append(`El auto es un: ${automovil.type} ${automovil.brand}de color ${automovil.color} modelo ${automovil.model} con ${automovil.distance}km y tiene defectos`);
+        $("#content3").append(`El auto es un: ${automovil.type} ${automovil.brand} de color ${automovil.color} modelo ${automovil.model} con ${automovil.distance}km y tiene defectos`);
     } else{
         automovil.setDefects(Boolean(false))
-        $("#content3").append(`El auto es un: ${automovil.type} ${automovil.brand}de color ${automovil.color} modelo ${automovil.model} con ${automovil.distance}km y no tiene defectos`);
+        $("#content3").append(`El auto es un: ${automovil.type} ${automovil.brand} de color ${automovil.color} modelo ${automovil.model} con ${automovil.distance}km y no tiene defectos`);
     }     
 }
+
