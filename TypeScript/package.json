@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@tarp/require": "^1.4.3",
+    "@types/jquery": "^3.5.14"
+  }
+}
