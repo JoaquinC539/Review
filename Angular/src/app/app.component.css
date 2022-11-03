@@ -10,6 +10,7 @@
   padding: 0;
   background-color: #0a160a;
   height: 48px;
+  margin-bottom: 1cm;
 }
 
 .navMenu li{
@@ -32,6 +33,11 @@
 
 .linkactive{
   background-color: green ;
+}
+
+h3{
+  font-size: larger;
+  font-weight: bolder;
 }
 
 
