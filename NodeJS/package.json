@@ -4,16 +4,20 @@
   "description": "NodeJS exercises",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JoaquinC539/repaso.git"
+    "url": "https://github.com/JoaquinC539/repaso.git"
   },
   "author": "Joaquin Corzo",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/JoaquinC539/repaso/issues"
   },
-  "homepage": "https://github.com/JoaquinC539/repaso#readme"
+  "homepage": "https://github.com/JoaquinC539/repaso#readme",
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  }
 }
