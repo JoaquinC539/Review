@@ -1,6 +1,6 @@
  'use strict'
 function exercise(){
-    const Firstex=console.log("Hacer un programa para hacer llamadas http a externos");
+    const Firstex=console.log("Ejercicio 1, Hacer un programa para hacer llamadas http a externos");
     var https=require('http');
     var req=https.request({
        host:"www.google.com",
