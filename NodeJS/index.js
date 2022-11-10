@@ -6,6 +6,8 @@ const ex4=require("./4exercise");
 const ex5=require("./5exercise");
 const ex6=require("./6exercise");
 const ex7=require("./7exercise");
+const ex8=require("./8exercise");
+const ex9=require('./9exercise');
 console.clear();
 console.log("Bienvenido a los ejercicios de NodeJS");
 const url="https://www.etutorialspoint.com/index.php/exercise/nodejs-exercises";
@@ -52,6 +54,14 @@ function prompt(){
         }
         if(name==7){
             ex7.exercise();
+            prompt();
+        }
+        if(name==8){
+            ex8.exercise();
+            prompt();
+        }
+        if(name==9){
+            ex9.exercise();
             prompt();
         }
     });
