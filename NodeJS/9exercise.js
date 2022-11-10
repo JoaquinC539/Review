@@ -14,6 +14,7 @@ function exercise() {
         });      
         }
      doZip('../test.txt','../Zipped.txt.gz')
+     .then(console.log("Hecho¡"))
      .catch((err)=>{console.log("Hubo un error",err)})
-     console.log("Hecho")}
+     }
 module.exports={exercise}
