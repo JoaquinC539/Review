@@ -1,2 +1,5 @@
-node_modules
-.env
+node_modules/*
+NodejS/node-modules
+/node_modules
+npm-debug.log
+yarn-error.log
